@@ -21,6 +21,15 @@
     }
   ],
   "env": {
-    "GOOGLE_SERVICE_ACCOUNT_JSON": "@google_service_account_json"
+    "GOOGLE_TYPE": "service_account",
+    "GOOGLE_PROJECT_ID": "@google_project_id",
+    "GOOGLE_PRIVATE_KEY_ID": "@google_private_key_id",
+    "GOOGLE_PRIVATE_KEY": "@google_private_key",
+    "GOOGLE_CLIENT_EMAIL": "@google_client_email",
+    "GOOGLE_CLIENT_ID": "@google_client_id",
+    "GOOGLE_AUTH_URI": "https://accounts.google.com/o/oauth2/auth",
+    "GOOGLE_TOKEN_URI": "https://oauth2.googleapis.com/token",
+    "GOOGLE_AUTH_PROVIDER_X509_CERT_URL": "https://www.googleapis.com/oauth2/v1/certs",
+    "GOOGLE_CLIENT_X509_CERT_URL": "@google_client_x509_cert_url"
   }
 }
